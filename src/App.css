@@ -1,0 +1,203 @@
+.main-page_sider-info {
+  color: #e5e5ff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 100;
+  padding: 10px;
+  font-size: 17px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.main-page_content-container_light {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-left: 10px;
+  background-color: white;
+  color: black;
+}
+
+.main-page_content-container_dark {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-left: 10px;
+  background-color: black;
+  color: white;
+}
+
+.main-page_card_light {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 10px;
+  position: relative;
+  height: 385px;
+  width: 225px;
+  background-color: white;
+  color: black;
+}
+
+.main-page_card_dark {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 10px;
+  position: relative;
+  height: 385px;
+  width: 225px;
+  background-color: black;
+  color: white;
+}
+
+.main-page_anime-name {
+  margin-top: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+}
+.main-page_anime-name:hover {
+  color: rgb(62, 0, 82);
+}
+.main-page_main-info {
+  border: 1px solid #d4d4d4;
+  width: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 12px;
+  margin-top: 10px;
+}
+.main-page_main-info > span:first-child {
+  font-family: Franklin Gothic Medium;
+  font-size: 16px;
+  color: #757575;
+}
+.main-page_main-info > span:first-child::after {
+  content: "-";
+  margin-left: 27px;
+  font-size: small;
+}
+.main-page_main-info > span:nth-child(2) {
+  font-family: Georgia;
+  font-size: 16px;
+  color: #757575;
+}
+.main-page_message-box {
+  width: 253px;
+  height: 354px;
+  background-color: #e6e8eb;
+  border: 1px solid #e6e8eb;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.08);
+  position: absolute;
+  margin-left: 14cm;
+  margin-top: 15px;
+  animation: fadeIn 2s;
+  z-index: 2;
+}
+.main-page_message-box::-webkit-scrollbar {
+  width: 5px;
+  height: 3px;
+  background-color: #c1c0c0;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.main-page_message-box::before {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+.main-page_message-box::before {
+  border-left: 10px solid transparent;
+  border-right: 3px solid transparent;
+  border-bottom: 20px solid #e6e8eb;
+  left: -10px;
+  top: 281px;
+}
+.main-page_message-box_container {
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.main-page_message-box_anime-name {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.main-page_top-info > span:first-child {
+  width: 90px;
+}
+.main-page-rating {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.highestRanking .highestRanking,
+.nineTen,
+.eightNine,
+.sevenEight,
+.sixSeven,
+.fiveSix,
+.fourFive,
+.threeFour,
+.twoThree,
+.oneTwo,
+.zeroRanking {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.main-page_additional-info {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  display: flex;
+  margin-top: 1px;
+}
+.main-page_additional-info_status {
+  width: 110px;
+}
+.main-page_additional-info_status--red {
+  color: red;
+}
+.main-page_additional-info_status--green {
+  color: green;
+}
+
+.main-page_genre-info {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.main-page_description {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 13px;
+  margin-top: 20px;
+  margin-right: 5px;
+  line-height: 20px;
+  display: flex;
+  text-align: justify;
+  text-indent: 5px;
+}
+
+.main-page_language-link {
+  text-decoration: none;
+  color: #e5e5ff;
+}
+.main-page_language-link:visited {
+  color: #e5e5ff;
+}

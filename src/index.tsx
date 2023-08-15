@@ -5,6 +5,7 @@ import App from "./App"
 import reportWebVitals from "./reportWebVitals"
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import RusAnimeList from "./RusApp/RusAnimeList"
+import RatingGraphics from "./RatingPage/RatingGraphics"
 const router = createBrowserRouter([
   {
     path: "/",
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
   {
     path: "/RusAnimeList",
     element: <RusAnimeList />,
+  },
+  {
+    path: "/RatingGraphics",
+    element: <RatingGraphics />,
   },
 ])
 

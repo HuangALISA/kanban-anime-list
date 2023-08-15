@@ -32,6 +32,5 @@ export interface IHeaderInfo {
   siteName: string
   language: string
   buttonName: string
-
   darkMode: boolean
 }

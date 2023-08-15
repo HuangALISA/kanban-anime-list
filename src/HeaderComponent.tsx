@@ -55,6 +55,9 @@ export const HeaderComponent: React.FC<HeaderComponentProps> = (props) => {
               {headerInfoMockData.language}
             </button>
           </Link>
+          <Link className="main-page_language-link" to={"/RatingGraphics"}>
+            <button className="main-page_language">rate</button>
+          </Link>
           <button className="main-page_mode " onClick={changeTheme}>
             mode
           </button>

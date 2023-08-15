@@ -6,6 +6,8 @@ import Sider from "antd/es/layout/Sider"
 import { Content, Footer } from "antd/es/layout/layout"
 import { ReactComponent as Logo } from "../logo.svg"
 import { useState } from "react"
+import { Link } from "react-router-dom"
+import "./rating.css"
 
 function changeTheme(theme: string): void {
   throw new Error("Function not implemented.")
@@ -102,6 +104,11 @@ const RatingGraphics = () => {
             }}
           >
             <Column {...config} />
+            <div className="graphic-page_back">
+              <Link className="graphic-page_back-link" to={"/"}>
+                <button className="graphic-page_back-button">Back</button>
+              </Link>
+            </div>
           </Content>
           <Footer
             style={{

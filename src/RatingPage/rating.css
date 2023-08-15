@@ -1,0 +1,36 @@
+.graphic-page_back {
+  position: absolute;
+  left: 50%;
+  margin-top: 40px;
+}
+
+.graphic-page_back-button {
+  width: 222px;
+  background-color: #5e5df0;
+  border-radius: 8px;
+  border-width: 0;
+  cursor: pointer;
+  display: flex;
+  font-family: -webkit-body;
+  font-size: 10px;
+  font-weight: 500;
+  color: #e5e5ff;
+  text-decoration: none;
+  line-height: 20px;
+  list-style: none;
+  margin: 1px 5px;
+  text-align: center;
+  touch-action: manipulation;
+  border: #5e5df0 solid thin;
+  justify-content: center;
+}
+
+.graphic-page_back-link {
+  position: center;
+  color: #e5e5ff;
+  text-decoration: none;
+}
+
+.graphic-page_back-link:visited {
+  color: #e5e5ff;
+}

@@ -169,3 +169,7 @@
   touch-action: manipulation;
   border: #e5e5ff solid thin;
 }
+.main-page_header-avatar {
+  height: 28px;
+  margin-top: 4px;
+}

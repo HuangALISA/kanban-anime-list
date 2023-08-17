@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import { headerInfoMockData } from "./mockData"
-
+import { ReactComponent as Avatar } from "./avatar.svg"
 import "./header.css"
 import { Link } from "react-router-dom"
 import "./App.css"
@@ -50,6 +50,7 @@ export const HeaderComponent: React.FC<HeaderComponentProps> = (props) => {
           </form>
         </div>
         <div className="main-page_site-manipulation">
+          <Avatar className="main-page_header-avatar" />
           <Link className="main-page_language-link" to={"/RusAnimeList"}>
             <button className="main-page_language">
               {headerInfoMockData.language}
